@@ -1,3 +1,7 @@
+# This script reports on all policy violations across all namespaces and creates alerts.csv
+# Requires ROX_ENDPOINT and ROX_API_TOKEN environment variables
+# Requires analyst access or more in ACS
+
 import requests
 import json
 import subprocess
