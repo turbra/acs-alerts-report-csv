@@ -20,6 +20,7 @@ The goal was to create a Python script that fetches alert data from Red Hat Adva
 
 ### Script Execution Requirements
 - **Environment Variables**: Before running the script, the `ROX_API_TOKEN` and `ROX_ENDPOINT` environment variables must be set with appropriate values.
+  - Token data from [ACS API Token](https://docs.openshift.com/acs/4.4/cli/using-the-roxctl-cli.html#create-api-token_using-roxctl-cli)
 - **Dependencies**: The script requires Python's `requests` library and the `jq` command-line tool installed on the system.
 - **Security Note**: The script uses `verify=False` in the API request to bypass SSL certificate verification. This is generally not recommended for production environments due to security risks.
 
